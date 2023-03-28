@@ -1,0 +1,59 @@
+/******************* MY CSS GENERIC **********************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.my_class_boxed {
+    width: 75rem;
+    margin: 0 auto;
+}
+
+/* .whidth-100 { width:100%}
+
+.min-height-500 { min: height 31.25rem; } */
+
+/******************* MY CSS NAV **********************/
+.my_class_color_white { color: white; }
+
+.my_class_navbar_inside {
+    height: 5rem;
+    width: 100%;
+    background-color: #2c3e50;
+}
+
+.my_class_flex_base {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my_class_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/******************* MY CSS HERO SECTION **********************/   
+.link-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+  
+.link-wrapper a {
+    color: white;
+    font-size: 1.25rem;
+    margin: 0 .625rem;
+    text-decoration: none;
+}
+  
+.link-wrapper a:hover {
+    text-decoration: underline;
+}
+  
