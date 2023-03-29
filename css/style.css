@@ -9,9 +9,9 @@
 .my_bg_color_secondary { background-color: #1abc9c }
 .my_bg_color_third { background-color: #3a546d }
 
-.my_svg {
-    width: 25%; height: auto
-}
+.my_max_width { max-width: 75rem }
+
+.my_svg { width: 25%; height: auto }
 /******************* MY CSS NAV **********************/
 
 .my_class_navbar_inside {
@@ -20,9 +20,7 @@
 }
 
 /******************* MY CSS HERO SECTION **********************/   
-.my_link_wrapper {
-    margin-top: 1.25rem;
-}
+.my_link_wrapper { margin-top: 1.25rem; }
   
 .my_link_wrapper a {
     color: white;
@@ -31,18 +29,24 @@
     text-decoration: none;
 }
   
-.my_link_wrapper a:hover {
-    cursor: pointer;
+.my_link_wrapper a:hover { cursor: pointer; }
+
+hr { 
+    border: .1875rem solid white; 
+    opacity: 1;
 }
 
+.my_dark_hr {
+    border: .1875rem solid black;
+}
 /******************* MY CSS MAIN SECTION CARD **********************/ 
 .my_hover_card { 
-    transition: all 0.8s;
+    transition: all 0.3s;
     cursor: pointer;
 }
 
 .my_hover_card:hover { transform: scale(1.05); }
 
 /******************* MY CSS FOOTER **********************/ 
-.my_class_inside_footer { height: 5rem;}
+.my_class_inside_footer { height: 5rem; }
 
