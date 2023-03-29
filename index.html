@@ -15,9 +15,10 @@
 
     <!-- nav bar  -->
     <header>
-        <nav class="navbar-expand-lg my_class_navbar_inside my_class_flex_nowrap">
-            <div class="container-fluid my_class_flex_base">
-    
+        <nav class="navbar-expand-lg my_class_navbar_inside my_class_flex">
+            <div class="container-fluid">
+                
+                <!-- nav inside  -->
                 <div class="my_class_flex my_class_boxed  my_class_color_white">
                     <a class="navbar-brand" href="#">START BOOTSTRAP</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,15 +28,15 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
     
                         <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
+                            <li class="nav-item my_class_padding_10">
                                 <a class="nav-link" href="#">PORTFOLIO</a>
                             </li>
     
-                            <li class="nav-item">
+                            <li class="nav-item my_class_padding_10">
                                 <a class="nav-link" href="#">ABOUT</a>
                             </li>
                             
-                            <li class="nav-item">
+                            <li class="nav-item my_class_padding_10">
                                 <a class="nav-link" href="#">CONTACT</a>
                             </li>
                         </ul>
@@ -51,9 +52,10 @@
         <!-- Hero section  -->
         <section>
             <div id="container" class="bg-primary py-5">
-                <div class="container">
-                    <div class="row">
+                <div class="container my_class_boxed ">
+                    <div class="row my_class_boxed">
                         <div class="col-12 text-center">
+                            <!-- <img src="" alt=""> -->
                             <h1>START BOOSTRAP</h1>
                             <hr>
                             <div class="link-wrapper">
@@ -64,8 +66,132 @@
                 </div>
             </div>
         </section>
-       
+
+        <!-- main section  -->
+        <section >
+            <div class="container-fluid bg-light">
+                <div class="row my_class_boxed">
+                    <div class="col-12 text-center">
+                        <h2>Titolo</h2>
+                        <hr class="my-4">
+                    </div>
+                </div>
+
+                <div class="container text-center">
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <div class="p-3 border bg-light min-height">img</div>
+                        </div>
+                        <div class="col-4">
+                            <div class="p-3 border bg-light min-height">img</div>
+                        </div>
+                        <div class="col-4">
+                            <div class="p-3 border bg-light min-height">img</div>
+                        </div>
+                        <div class="col-4">
+                            <div class="p-3 border bg-light min-height">img</div>
+                        </div>
+                        <div class="col-4">
+                            <div class="p-3 border bg-light min-height">img</div>
+                        </div>
+                        <div class="col-4">
+                            <div class="p-3 border bg-light min-height">img</div>
+                        </div>
+
+                    </div>
+            
+                </div>
+            </div>
+        </section>
+
+        <!-- 2 section  -->
+        <section >
+            <div class="container-fluid bg-success">
+                <div class="row my_class_boxed">
+                    <div class="col-12 text-center">
+                        <h2>Titolo</h2>
+                        <hr class="my-4">
+                    </div>
+                </div>
+
+                <div class="container text-center">
+                    <div class="row g-2">
+                        <div class="col-6">
+                            <div class="p-3 min-height">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non praesentium est tempore. Dolore obcaecati temporibus blanditiis excepturi sed consectetur earum corrupti quidem, sapiente pariatur asperiores exercitationem voluptatum molestiae explicabo? Ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos culpa odio provident eligendi et temporibus exercitationem beatae animi rerum soluta consequuntur corporis, perferendis unde quis amet nobis ad, pariatur ab!</div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 min-height">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non praesentium est tempore. Dolore obcaecati temporibus blanditiis excepturi sed consectetur earum corrupti quidem, sapiente pariatur asperiores exercitationem voluptatum molestiae explicabo? Ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum voluptatem atque debitis modi autem maxime voluptates, nesciunt harum non delectus libero ratione illo. Autem tenetur ipsam magni, cumque sed voluptatum.</div>
+                        </div>
+                    
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <button type="button" class="btn btn-light">
+                                <i class="bi bi-download"></i> Download
+                            </button>     
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        </section>
+
+        <!-- contact me  -->
+        <section>
+            <div class="container-fluid my_class_boxed">
+                <form>   
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">    
+                    </div>
+                    <div class="mb-3">
+                        <label for="" class="form-label">Phone Number</label>
+                        <input type=">phonenumber" class="form-control" id=">phonenumber">
+                    </div>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button class="btn btn-success" type="send">Send</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <!-- 3 section  -->
+        <section >
+            <div class="container-fluid bg-warning">
+                <div class="container text-center">
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <div class="p-6 min-height">img</div>
+                        </div>
+                        <div class="col-4">
+                            <div class="p-6 min-height">img</div>
+                        </div>
+                        <div class="col-4">
+                            <div class="p-6 min-height">img</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
+
+    <footer>
+        <section >
+            <div class="container-fluid bg-danger my_class_inside_footer my_display_flex">
+                <div class="container my_footer_flex text-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <div>footer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
   
 
 </body>
