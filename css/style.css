@@ -14,9 +14,9 @@ body {
     margin: 0 auto;
 }
 
-/* .whidth-100 { width:100%}
+.my_class_padding_10 { padding: .625rem; }
 
-.min-height-500 { min: height 31.25rem; } */
+.min-height { min-height:18.75rem}
 
 /******************* MY CSS NAV **********************/
 .my_class_color_white { color: white; }
@@ -25,11 +25,6 @@ body {
     height: 5rem;
     width: 100%;
     background-color: #2c3e50;
-}
-
-.my_class_flex_base {
-    justify-content: space-between;
-    align-items: center;
 }
 
 .my_class_flex {
@@ -56,4 +51,15 @@ body {
 .link-wrapper a:hover {
     text-decoration: underline;
 }
-  
+
+/******************* MY CSS FOOTER **********************/ 
+.my_class_inside_footer { height: 5rem;}
+
+.my_display_flex { display: flex; }
+
+.my_footer_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
