@@ -9,12 +9,9 @@
 .my_bg_color_secondary { background-color: #1abc9c }
 .my_bg_color_third { background-color: #3a546d }
 
-.my_max_width { max: width 62.5rem; }
-
-.my_class_padding_10 { padding: .625rem; }
-
-.my_h_100{ height:100%}
-
+.my_svg {
+    width: 25%; height: auto
+}
 /******************* MY CSS NAV **********************/
 
 .my_class_navbar_inside {
@@ -43,8 +40,6 @@
     transition: all 0.8s;
     cursor: pointer;
 }
-
-/******************* MY CSS MAIN CONTACT ME **********************/
 
 .my_hover_card:hover { transform: scale(1.05); }
 
