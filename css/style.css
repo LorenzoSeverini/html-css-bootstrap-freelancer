@@ -8,24 +8,14 @@
 .my_bg_color_primary { background-color: #2c3e50; }
 .my_bg_color_secondary { background-color: #1abc9c }
 .my_bg_color_third { background-color: #3a546d }
-.my_bg_color_red { background-color: #ba4b63 }
-.my_bg_color_azure_strong { background-color: #1ea4b6 }
-.my_bg_color_black { background-color: #000000 }
-.my_bg_color_soft_blue { background-color: #1c83c1 }
-.my_bg_color_blue { background-color: #0e38b5 }
-.my_bg_color_soft_orange { background-color: #ccb2a3 }
 
-
-
+.my_max_width { max: width 62.5rem; }
 
 .my_class_padding_10 { padding: .625rem; }
-
-.my_min_height { min-height:18.75rem}
 
 .my_h_100{ height:100%}
 
 /******************* MY CSS NAV **********************/
-.my_class_color_white { color: white; }
 
 .my_class_navbar_inside {
     height: 5rem;
@@ -47,6 +37,16 @@
 .my_link_wrapper a:hover {
     cursor: pointer;
 }
+
+/******************* MY CSS MAIN SECTION CARD **********************/ 
+.my_hover_card { 
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+/******************* MY CSS MAIN CONTACT ME **********************/
+
+.my_hover_card:hover { transform: scale(1.05); }
 
 /******************* MY CSS FOOTER **********************/ 
 .my_class_inside_footer { height: 5rem;}
